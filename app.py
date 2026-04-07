@@ -4,7 +4,7 @@ import io
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("Genelight: Antibiotic Resistance Detection")
+st.title("Antibiotic Resistance Gene Detection")
 
 uploaded_file = st.file_uploader("Upload Genome FASTA", type=["fasta","fa","fna"])
 
